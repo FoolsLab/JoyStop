@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JoyStop", "JoyStop\JoyStop.vcxproj", "{F667543F-AA1D-4D78-B750-EE27AF8FF8D1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9CCD141F-86C5-4389-9C6E-B5754627CF5A} = {9CCD141F-86C5-4389-9C6E-B5754627CF5A}
+		{8C133E8F-4655-4998-996B-0944FA59CE9D} = {8C133E8F-4655-4998-996B-0944FA59CE9D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "inj", "inj\inj.vcxproj", "{8C133E8F-4655-4998-996B-0944FA59CE9D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jsAgent", "jsAgent\jsAgent.vcxproj", "{9CCD141F-86C5-4389-9C6E-B5754627CF5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F667543F-AA1D-4D78-B750-EE27AF8FF8D1}.Debug|x64.ActiveCfg = Debug|x64
+		{F667543F-AA1D-4D78-B750-EE27AF8FF8D1}.Debug|x64.Build.0 = Debug|x64
+		{F667543F-AA1D-4D78-B750-EE27AF8FF8D1}.Debug|x86.ActiveCfg = Debug|Win32
+		{F667543F-AA1D-4D78-B750-EE27AF8FF8D1}.Debug|x86.Build.0 = Debug|Win32
+		{F667543F-AA1D-4D78-B750-EE27AF8FF8D1}.Release|x64.ActiveCfg = Release|x64
+		{F667543F-AA1D-4D78-B750-EE27AF8FF8D1}.Release|x64.Build.0 = Release|x64
+		{F667543F-AA1D-4D78-B750-EE27AF8FF8D1}.Release|x86.ActiveCfg = Release|Win32
+		{F667543F-AA1D-4D78-B750-EE27AF8FF8D1}.Release|x86.Build.0 = Release|Win32
+		{8C133E8F-4655-4998-996B-0944FA59CE9D}.Debug|x64.ActiveCfg = Debug|x64
+		{8C133E8F-4655-4998-996B-0944FA59CE9D}.Debug|x64.Build.0 = Debug|x64
+		{8C133E8F-4655-4998-996B-0944FA59CE9D}.Debug|x86.ActiveCfg = Debug|Win32
+		{8C133E8F-4655-4998-996B-0944FA59CE9D}.Debug|x86.Build.0 = Debug|Win32
+		{8C133E8F-4655-4998-996B-0944FA59CE9D}.Release|x64.ActiveCfg = Release|x64
+		{8C133E8F-4655-4998-996B-0944FA59CE9D}.Release|x64.Build.0 = Release|x64
+		{8C133E8F-4655-4998-996B-0944FA59CE9D}.Release|x86.ActiveCfg = Release|Win32
+		{8C133E8F-4655-4998-996B-0944FA59CE9D}.Release|x86.Build.0 = Release|Win32
+		{9CCD141F-86C5-4389-9C6E-B5754627CF5A}.Debug|x64.ActiveCfg = Debug|x64
+		{9CCD141F-86C5-4389-9C6E-B5754627CF5A}.Debug|x64.Build.0 = Debug|x64
+		{9CCD141F-86C5-4389-9C6E-B5754627CF5A}.Debug|x86.ActiveCfg = Debug|Win32
+		{9CCD141F-86C5-4389-9C6E-B5754627CF5A}.Debug|x86.Build.0 = Debug|Win32
+		{9CCD141F-86C5-4389-9C6E-B5754627CF5A}.Release|x64.ActiveCfg = Release|x64
+		{9CCD141F-86C5-4389-9C6E-B5754627CF5A}.Release|x64.Build.0 = Release|x64
+		{9CCD141F-86C5-4389-9C6E-B5754627CF5A}.Release|x86.ActiveCfg = Release|Win32
+		{9CCD141F-86C5-4389-9C6E-B5754627CF5A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7261A28-AC52-4F98-B83B-4B39E7FCB1BD}
+	EndGlobalSection
+EndGlobal
